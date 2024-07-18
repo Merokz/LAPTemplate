@@ -1,0 +1,23 @@
+﻿[
+  {
+    "SchemaName": "dbo",
+    "Tables": [
+      {
+        "Columns": [],
+        "Name": "Tbl_Example",
+        "NewName": "Example"
+      },
+      {
+        "Name": "Tbl_Benutzer",
+        "NewName": "Benutzer",
+        "Columns": [
+          {
+            "Name": "benutzer_id",
+            "NewName": "BenutzerID"
+          }
+        ]
+      }
+    ],
+    "UseSchemaName": false
+  }
+]
