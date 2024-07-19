@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+
 namespace LAPTemplateMVC
 {
     public class Program
@@ -8,6 +10,11 @@ namespace LAPTemplateMVC
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            //builder.Services.AddDbContext<LapTestContext>(options =>
+            //{
+            //    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+            //});
 
             var app = builder.Build();
 

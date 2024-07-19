@@ -4,18 +4,18 @@
     "Tables": [
       {
         "Columns": [],
-        "Name": "Tbl_Example",
+        "Name": "Tbl_Example123",
         "NewName": "Example"
       },
       {
-        "Name": "Tbl_Benutzer",
-        "NewName": "Benutzer",
         "Columns": [
           {
             "Name": "benutzer_id",
             "NewName": "BenutzerID"
           }
-        ]
+        ],
+        "Name": "Tbl_Benutzer123",
+        "NewName": "Benutzer"
       }
     ],
     "UseSchemaName": false
